@@ -1,55 +1,39 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
+    <title>IGN Top 8 Video Games Review 2023 | Home</title>
+    <meta name="description" content="A Catalog of Video Game Reviews">
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="scripts.js" defer></script>
 </head>
 
 <body>
     <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
+        <h1 class="title">IGN Top 8 Video Games Review 2023</h1>
     </header>
     <div id="card-container">
-        
     </div>
-    <div class="card" style="display: none;">
-        <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
-            <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
-            </ul>
+    <template id="card-template">
+        <div class="card">
+            <div class="card-content">
+                <h2 class="game-title">Game Title</h2>
+                <img src="" alt="Game Poster" class="game-img">
+                <div class="game-details">
+                    <p class="game-genre">Genre: </p>
+                    <p class="game-year">Year: </p>
+                    <p class="game-rating">Rating: </p>
+                    <p class="game-platform" style="display: none;">Platform: </p>
+                </div>
+            </div>
         </div>
-    </div>
+    </template>
     <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
+        <button onclick="agreeOrDisagree();">
+            Do You Agree With This List?
         </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
         </button>
     </div>
-</body> -->
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Game Catalog</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<div id="game-catalog" class="game-catalog"></div>
-
-<script src="scripts.js"></script>
 </body>
+
 </html>
